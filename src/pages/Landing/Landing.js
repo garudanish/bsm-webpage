@@ -17,27 +17,29 @@ const Landing = () => {
       <IntroSection>
         <h2 className="visually-hidden">소개</h2>
         <IntroParagraph>
-          서있는 사람들은 각각 다른 그룹에 있던 사람들이 뜻을 모아 2020년 만든
-          성남 FC 서포터즈 소모임입니다. 우리는
-          <br />
-          <br />
-          우리는 우리의 이름처럼, 성남 FC를 위해 90분간 서서 응원하며 그들과
-          함께 합니다. 가입 문의는 인스타그램 @BSM.SEONGNAM 에 DM을 보내주시면
-          답변드리겠습니다.
-          <br />
-          <br />
-          우리는 BSM, 서있는 사람들, 庶傞, 브슴, VIRI STANTES, 서사 등 어떤
-          이름으로 불려도 괜찮은 서포터 소모임입니다. 성남을 위해 우리 함께
-          서있는 사람들이 되길 바랍니다. 우리의 열정은 쉼이 없습니다.
-          <br />
-          <br />
-          TOM HAS OVER 14 YEARS EXPERIENCE WORKING IN-HOUSE AND AT AGENCIES BOTH
-          LARGE AND SMALL IN LONDON, SAN FRANCISCO AND NEW YORK. HE IS CURRENTLY
-          WORKING AS A DESIGN DIRECTOR AT SQUARESPACE WHERE HE LEADS THE WEB
-          DESIGN TEAM IN DEFINING AND ENABLING BEST IN CLASS DESIGN AND
-          DEMOCRATIZING IT FOR OUR CUSTOMERS ACROSS ALL TOUCH POINTS WITHIN THE
-          COMPANY. HE IS ALWAYS AVAILABLE TO TALK ABOUT PROJECTS AND
-          OPPORTUNITIES. FEEL FREE TO GET IN TOUCH AT IAM@TOMSEARS.ME
+          서있는 사람들은 각각 다른 그룹에 있던 사람들이 뜻을 모아 2020년에 만든
+          성남 FC 서포터즈 소모임입니다. 우리는 '우리의 열정엔 쉼이 없단다'라는
+          가사처럼, 성남 FC를 위해 90분간 서서 응원하며 그들과 함께 합니다.
+          2020년 성남 블랙과 함께 다큐멘터리{" "}
+          <IntroLink
+            href="https://www.youtube.com/watch?v=CtdERhcCFso"
+            target="_blank"
+            rel="noopenner noreferrer"
+          >
+            '우리 동네 축구팀'
+          </IntroLink>
+          을 만들었으며, 2021년 요코하마 축구 영화제에서 '베스트 서포터 상'을
+          수상했습니다. 또한 2020년부터 팟캐스트 '브슴팟'을 만들어오는 등 성남
+          FC를 응원하는 사람들과 소통하고자 합니다. 우리와 함께 하고자 하신다면,
+          인스타그램{" "}
+          <IntroLink
+            href="https://www.instagram.com/bsm.seongnam/"
+            target="_blank"
+            rel="noopenner noreferrer"
+          >
+            @BSM.SEONGNAM
+          </IntroLink>
+          에 DM을 보내주시면 답변드리겠습니다.
         </IntroParagraph>
       </IntroSection>
     </StyledLanding>
@@ -50,7 +52,7 @@ const StyledLanding = styled.main``;
 
 const LyricsSection = styled.section`
   padding: 0 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 `;
 
 const Lyrics = styled.span`
@@ -67,6 +69,16 @@ const Lyrics = styled.span`
 const IntroSection = styled(LyricsSection)``;
 
 const IntroParagraph = styled.p`
-  font-weight: 300;
+  margin-bottom: 20px;
   font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-indent: 2em;
+`;
+
+const IntroLink = styled.a`
+  display: inline-block;
+  border-bottom: 1px solid ${({ theme }) => theme.primary};
+  font-weight: 400;
+  text-indent: 0;
 `;
