@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import SliderSection from "./SliderSection/SliderSection";
 import LyricsSection from "./LyricsSection/LyricsSection";
 
 const LINKS = [
@@ -57,6 +58,8 @@ const Landing = () => {
           </p>
         </SectionDescription>
       </IntroSection>
+
+      <SliderSection />
 
       <LinkSection>
         <SectionTitle>
