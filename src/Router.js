@@ -10,8 +10,8 @@ const Router = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/bsm-webpage" element={<Landing />} />
+        <Route path="/bsm-webpage/projects" element={<Projects />} />
       </Routes>
       <Footer />
     </BrowserRouter>
