@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bsm-webpage/static/js/main.47a9cb3d.js",
+    "main.js": "/bsm-webpage/static/js/main.3cdabe2a.js",
     "index.html": "/bsm-webpage/index.html",
-    "main.47a9cb3d.js.map": "/bsm-webpage/static/js/main.47a9cb3d.js.map"
+    "main.3cdabe2a.js.map": "/bsm-webpage/static/js/main.3cdabe2a.js.map"
   },
   "entrypoints": [
-    "static/js/main.47a9cb3d.js"
+    "static/js/main.3cdabe2a.js"
   ]
 }
