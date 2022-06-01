@@ -14,10 +14,10 @@ const Header = () => {
       <nav>
         <NavList>
           <NavItem isMain={isMain}>
-            <StyledLink to="/">About</StyledLink>
+            <StyledLink to="/bsm-webpage/">About</StyledLink>
           </NavItem>
           <NavItem isMain={!isMain}>
-            <StyledLink to="/projects">Projects</StyledLink>
+            <StyledLink to="/bsm-webpage/projects">Projects</StyledLink>
           </NavItem>
         </NavList>
       </nav>
